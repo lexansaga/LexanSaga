@@ -71,21 +71,24 @@
 <br clear="both">
 
 <div align="center">
+  <div align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/LexanSaga/AlexanderSaga/output/snake.svg"
+      srcset="https://raw.githubusercontent.com/lexansaga/AlexanderSaga/output/pacman-contribution-graph-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/LexanSaga/AlexanderSaga/output/snake.svg"
+      srcset="https://raw.githubusercontent.com/lexansaga/AlexanderSaga/output/pacman-contribution-graph.svg"
     />
     <img
-      alt="Snake animation"
-      src="https://raw.githubusercontent.com/LexanSaga/AlexanderSaga/output/snake.svg"
-      width="100%"
+      alt="Pac-Man contribution graph"
+      src="https://raw.githubusercontent.com/lexansaga/AlexanderSaga/output/pacman-contribution-graph.svg"
+        width="100%"
     />
   </picture>
+</div>
+
 </div>
 
 ###
