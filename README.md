@@ -2,13 +2,16 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=LexanSaga.LexanSaga&left_color=chocolate&right_color=darkolivegreen&left_text=Viewers"  />
 </div>
 
-https://readme-typing-svg.demolab.com/demo/?size=42&letterSpacing=1.3&center=true&vCenter=true&width=600&height=100&lines=%F0%9F%9A%80+Full+Stack+Developer+%F0%9F%9A%80
 
 ###
 
 <br clear="both">
 
 <h1 align="center">👋 Hello, I'm Alex!</h1>
+
+<br clear="both">
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=42&letterSpacing=1.3&pause=1000&center=true&vCenter=true&width=600&height=100&lines=%F0%9F%9A%80+Full+Stack+Developer+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
 ###
 
