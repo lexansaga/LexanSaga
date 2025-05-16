@@ -1,7 +1,7 @@
 <!-- Animated Greetings -->
 <div align="center">
   <h1>👋 Hello, I'm Alex!</h1>
- [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=42&letterSpacing=1.3&pause=1000&center=true&vCenter=true&width=600&height=100&lines=%F0%9F%9A%80+Full+Stack+Developer+%F0%9F%9A%80)](https://git.io/typing-svg)
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=42&letterSpacing=1.3&pause=1000&center=true&vCenter=true&width=600&height=100&lines=%F0%9F%9A%80+Full+Stack+Developer+%F0%9F%9A%80" alt="Typing SVG" /></a>
 </div>
 
 ---
@@ -26,14 +26,17 @@
 ## 🔗 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/your-username" target="_blank">
+  <a href="https://www.linkedin.com/in/lexan-saga" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://www.instagram.com/your-username" target="_blank">
+  <a href="https://www.instagram.com/lexan.saga/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://www.facebook.com/your-username" target="_blank">
+  <a href="https://www.facebook.com/LexanSaga" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+   <a href="https://alexandersaga.web.app" target="_blank">
+    <img src="https://img.shields.io/badge/Website-alexandersaga.web.app-4A90E2?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
 </p>
 
