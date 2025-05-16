@@ -2,7 +2,7 @@ name: Generate pacman animation
 
 on:
   schedule:
-    - cron: '0 */12 * * *'      # run every 12 hours at minute 0 (UTC) :contentReference[oaicite:4]{index=4}
+    - cron: '0 */12 * * *'      # every 12 hours at minute 0 :contentReference[oaicite:7]{index=7}
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -10,30 +10,25 @@ on:
 jobs:
   generate:
     permissions:
-      contents: write          # allow pushing to the output branch :contentReference[oaicite:5]{index=5}
+      contents: write
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0        # fetch all history for branches & tags :contentReference[oaicite:6]{index=6}
+          fetch-depth: 0          # fetch all history :contentReference[oaicite:8]{index=8}
 
       - name: Generate pacman graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}  # generates SVG at repo root :contentReference[oaicite:7]{index=7}
-
-      - name: Prepare dist directory
-        run: |
-          mkdir -p dist         # create dist folder if missing
-          mv pacman-contribution-graph.svg dist/  # move generated SVG into dist :contentReference[oaicite:8]{index=8}
+          github_user_name: ${{ github.repository_owner }}  # outputs SVG to dist/ :contentReference[oaicite:9]{index=9}
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist       # publish content of dist/ :contentReference[oaicite:9]{index=9}
-          keep_history: true    # preserve branch history to avoid SHA mismatches :contentReference[oaicite:10]{index=10}
+          build_dir: dist
+          keep_history: true      # preserve full branch history :contentReference[oaicite:10]{index=10}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
