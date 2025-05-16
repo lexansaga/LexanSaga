@@ -71,13 +71,20 @@
 <br clear="both">
 
 <div align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository_owner }}/output/pacman-contribution-graph.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository_owner }}/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository_owner }}/output/pacman-contribution-graph.svg">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/LexanSaga/LexanSaga/output/pacman-contribution-graph.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/LexanSaga/LexanSaga/output/pacman-contribution-graph.svg"
+  />
+  <img
+    alt="pacman contribution graph"
+    src="https://raw.githubusercontent.com/LexanSaga/LexanSaga/output/pacman-contribution-graph.svg"
+  />
 </picture>
-
-  <img src="https://raw.githubusercontent.com/LexanSaga/LexanSaga/output/snake.svg" alt="Snake animation" />
 </div>
 
 
