@@ -83,11 +83,10 @@
     <img
       alt="Snake animation"
       src="https://raw.githubusercontent.com/LexanSaga/AlexanderSaga/output/snake.svg"
+      width="100%"
     />
   </picture>
 </div>
-
-
 
 ###
 
