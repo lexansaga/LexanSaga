@@ -42,7 +42,8 @@
 
 ---
 
-<!-- GitHub Snake SVG -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LexanSaga/LexanSaga/output/snake.svg" alt="Snake animation" />
-</p>
+###
+
+<img src="https://raw.githubusercontent.com/LexanSaga/LexanSaga/output/snake.svg" alt="Snake animation" />
+
+###
